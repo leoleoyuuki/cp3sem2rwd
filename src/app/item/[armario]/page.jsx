@@ -10,7 +10,6 @@ export default function Camisa({params}) {
             <Image src={`/img/${params.armario}.jpg`} alt="Armario" width={320} height={320}></Image>
             <h1 className='text-2xl font-bold'>{params.armario}</h1>
         </figure>
-        
     </div>
   )
 }

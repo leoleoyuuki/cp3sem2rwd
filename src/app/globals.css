@@ -7,10 +7,9 @@
         @apply hover:bg-lime-400 transition-all duration-500 ease-out rounded
     }
 }
-
 @layer bg{
     .bg{
-        height: 90vh;
+        height: 92vh;
         background-image: url("/img/wardrobe.jpg");
         background-size: 100%;
         background-repeat: no-repeat;

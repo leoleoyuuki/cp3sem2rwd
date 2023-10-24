@@ -5,9 +5,11 @@ export default function Cabecalho() {
   return (
     <header className="bg-gray-800 text-white ">
           <nav className='flex justify-around items-center h-16'>
-            <Link className='linkCabecalho' href="/produtos/estaticas/tenis">TENIS</Link>
-            <Link className='linkCabecalho' href={"/produtos/dinamicas/estranho/tenis-preto"}>TENIS PRETO</Link>
-            <Link className='linkCabecalho' href="/produtos/dinamicas/vestuario/camisa-xadrez">Camisa-X</Link>
+            <Link className='linkCabecalho' href="/item/camisa">Camisa</Link>
+            <Link className='linkCabecalho' href="/item/calca">Calca</Link>
+            <Link className='linkCabecalho' href="/item/sapato">Sapato</Link>
+            <Link className='linkCabecalho' href="/item/oculos">Oculos</Link>
+            <Link className='linkCabecalho' href="/item/bone">Bone</Link>
           </nav>
         </header>
   )
